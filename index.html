@@ -80,13 +80,15 @@ ex)
 
     <!-- 행<tr>을 먼저 만들고 열<th>,<td>을 만든다. -->
     <table>
+        <thead>
         <!-- <tr> 1행 -->
-        <tr>
-            <!-- <th> : 본문을 설명해주는 셀 -->
-            <th>이름</th>
-            <th>주소</th>
-            <th>종류</th>
-        </tr>
+            <tr>
+                <!-- <th> : 본문을 설명해주는 셀 -->
+                <th>이름</th>
+                <th>주소</th>
+                <th>종류</th>
+            </tr>
+        </thead>
         <!-- 2행 -->
         <tr>
             <!-- <td> : 본문(내용물)에 해당하는 셀 -->
@@ -94,12 +96,13 @@ ex)
             <td>https://www.google.co.kr/?safe=active&ssui=on</td>
             <td rowspan="2">포탈</td>
         </tr>
+        <!-- 3행 -->
         <tr>
             <td>네이버</td>
             <td>https://www.naver.com/</td>
             <!-- <td>포탈</td> -->
         </tr>
-        <!-- 3행 -->
+        <!-- 4행 -->
         <tr>
             <td>깃허브</td>
             <td>https://github.com/</td>
