@@ -2,6 +2,7 @@
     /* 요소를 아예 사라지게 함 */
     display: none;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +28,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: #fff;
 }
+
 /* 제목 글자 */
 h1 {
     text-align: center;
@@ -34,14 +36,17 @@ h1 {
     font-size: 36px;
     color: #b38bff;
 }
+
 form {
     display: flex;
     flex-direction: column;
 }
+
 label {
     margin-bottom: 10px;
     font-size: 20px;
 }
+
 input {
     padding: 12px;
     border: none;
@@ -61,9 +66,11 @@ button {
     /* 이벤트 발생했을 때 style변화를 자연스렙게 */
     transition: background-color 0.3s ease-in-out;
 }
+
 button:hover {
     background-color: #8c5fb2;
 }
+
 a {
     color: #b38bff;
     /* 밑줄 제거 */
@@ -72,9 +79,11 @@ a {
     /* 이벤트 발생했을 때 style변화를 자연스렙게 */
     transition: color 0.3s ease-in-out;
 }
+
 a:hover {
     color: #8c5fb2;
 }
+
 p {
     text-align: center;
     margin: 8px;
